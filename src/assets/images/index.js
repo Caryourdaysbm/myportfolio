@@ -4,6 +4,8 @@ import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
 import upwork from './upwork-icon.svg'
+import cdlp from './cdlp_hub_ltd_logo.jpg'
+import beatify from './beatify-logo.png'
 import Fiverr from './fiverr-icon.svg'
 import Zidio from './zidio_logo.png'
 import logo from './logo.svg'
@@ -16,6 +18,8 @@ export {
     starbucks,
     tesla,
     logo,
+    cdlp,
+    beatify,
     upwork,
     Fiverr,
     Zidio,
