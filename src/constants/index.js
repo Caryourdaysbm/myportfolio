@@ -328,7 +328,7 @@ export const projects = [
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'A react To-do list',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        description: 'Using react.js, created a to-do-list webapp that enables users to plan their day',
         link: 'https://reacttodolistbykay.netlify.app/',
     },
 
@@ -352,7 +352,7 @@ export const projects = [
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'A Tip Calculator',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+        description: '',
         link: 'https://www.tipcalculator.caryourdaysbm.repl.co/',
     },
 
