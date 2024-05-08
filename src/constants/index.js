@@ -289,6 +289,30 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    
+    
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-red',
+        name: 'Topitup website',
+        description: 'Collaborated with developers and designers to develope a web application for Topitupng that allows user to make bill payments',
+        link: 'https://new.topitupng.com',
+    },
+
+    {
+        iconUrl: snapgram,
+        theme: 'btn-back-pink',
+        name: 'Zuri Website Clone',
+        description: 'Designed and built zuri website clone',
+        link: 'https://caryourdaysbm.github.io/zuriWebsiteFrontend/',
+    },
+    {
+        iconUrl: estate,
+        theme: 'btn-back-black',
+        name: 'JOJI Pastries',
+        description: 'Developed a web application for food ordering, facilitating food searches and connecting buyers with sellers.',
+        link: 'https://jojiservices.netlify.app',
+    },
 
 
     {
@@ -299,21 +323,7 @@ export const projects = [
         link: 'https://calculatorbykay.netlify.app/',
     },
 
-    {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Topitup website',
-        description: 'Collaborated with developers and designers to develope a web application for Topitupng that allows user to make bill payments',
-        link: 'https://www.new.topitupng.com',
-    },
 
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Zuri Website Clone',
-        description: 'Designed and built zuri website clone',
-        link: 'https://caryourdaysbm.github.io/zuriWebsiteFrontend/',
-    },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
@@ -339,18 +349,11 @@ export const projects = [
     },
 
     {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'JOJI Pastries',
-        description: 'Developed a web application for food ordering, facilitating food searches and connecting buyers with sellers.',
-        link: 'https://www.jojiservices.netlify.app',
-    },
-    {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'A Tip Calculator',
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://tipcalculator.caryourdaysbm.repl.co/',
+        link: 'https://www.tipcalculator.caryourdaysbm.repl.co/',
     },
 
     {
