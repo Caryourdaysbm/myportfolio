@@ -289,14 +289,29 @@ export const socialLinks = [
 ];
 
 export const projects = [
+
+    {
+        iconUrl: car,
+        theme: 'btn-back-pink',
+        name: 'Health 5',
+        description: 'A web 5 webapp created for private sharing of health informations',
+        link: 'https://github.com/Caryourdaysbm/health5/',
+    },   
     
-    
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-yellow',
+        name: 'Wander Watch',
+        description: '',
+        link: 'https://github.com/john-shaibu/wander-watch',
+    },
+
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'Topitup website',
         description: 'Collaborated with developers and designers to develope a web application for Topitupng that allows user to make bill payments',
-        link: 'https://new.topitupng.com',
+        link: 'https://github.com/CDLP-HUB-LTD/Topitup',
     },
 
     {
@@ -311,7 +326,7 @@ export const projects = [
         theme: 'btn-back-black',
         name: 'JOJI Pastries',
         description: 'Developed a web application for food ordering, facilitating food searches and connecting buyers with sellers.',
-        link: 'https://jojiservices.netlify.app',
+        link: 'https://github.com/Caryourdaysbm/JojiI',
     },
 
 
@@ -338,14 +353,14 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Global Impact Church Website',
         description: '',
-        link: 'https://gichurchwebsite.netlify.app/',
+        link: 'https://github.com/Caryourdaysbm/globalImpactChurch',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'Beatify Team Website',
         description: 'Designed and built a web app for an institution using Vue.js',
-        link: 'https://www.beatifyvue.netlify.app',
+        link: 'https://github.com/Caryourdaysbm/BeatifyVuejs',
     },
 
     {
