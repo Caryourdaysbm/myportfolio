@@ -124,6 +124,30 @@ export const skills = [
 ];
 
 export const experiences = [
+
+    {
+        title: "Financial Analyst & Trader",
+        company_name: "Self-employed",
+        icon: Fiverr,
+        iconBg: "#00b22d",
+        date: "April - Present",
+        points: [   
+            "",
+            "",
+            "",
+            "",
+        ],
+    },
+    {
+        title: "National Youth Service Corps",
+        company_name: "Ministry of Energy and Mineral Resources, Oyo State, Nigeria",
+        icon: Fiverr,
+        iconBg: "#00b22d",
+        date: "August 2023 - July 2024",
+        points: [   
+            "",
+        ],
+    },
     {
         title: "Software Engineer, Frontend (Contract)",
         company_name: "CDLP Hub LTD",
@@ -168,60 +192,7 @@ export const experiences = [
         ],
     },
 
-    {
-        title: "Web3&Solidity Bootcamp",
-        company_name: "Polygon Africa",
-        icon: Zidio,
-        iconBg: "#d2e4ff",
-        date: "Oct 2022 - Dec 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implemented responsive design and ensuring cross-browser compatibility.",
-            "Participated in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-
-
-    {
-        title: "Software React.js Developer (Intern)",
-        company_name: "Linuxjobber, Inc",
-        icon: Zidio,
-        iconBg: "#385925",
-        date: "Sept 2022 - Oct 2022",
-        points: [
-            "Developed a highly intuitive scrumboard app with React Beautiful DND, resulting in a 20% increase in user productivity and task management efficiency.",
-            "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Participated in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    
-    {
-        title: "Frontend Developer (Intern)",
-        company_name: "Ingressive For Good",
-        icon: Zidio,
-        iconBg: "#F5EDA0",
-        date: "May 2022 - Aug 2022",
-        points: [
-            "Developing and maintaining web applications using HTML, CSS, Javascript and other related technologies.",
-            "Actively participated in collaborative projects, ensuring code quality and version control",
-            "Implemented performance optimizations that reduced website loading times by 20%.",
-        ],
-    },
-
-    {
-        title: "Frontend Developer  (Intern)",
-        company_name: "Future Academy Africa",
-        icon: Zidio,
-        iconBg: "#c51bf0",
-        date: "March 2022 - Aug 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+   
     {
         title: "Full stack Developer",
         company_name: "Fiverr",
