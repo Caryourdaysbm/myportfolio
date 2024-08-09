@@ -1,5 +1,7 @@
 import hero from './hero.jpg'
 import meta from './meta.png'
+import dangote from './dangote.jpg'
+import memr from './MEMR.JPG'
 import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
@@ -14,6 +16,8 @@ import Lantop from './Lantop.svg'
 export {
     hero,
     meta,
+    dangote,
+    memr,
     shopify,
     starbucks,
     tesla,

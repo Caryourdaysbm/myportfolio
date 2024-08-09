@@ -1,4 +1,4 @@
-import { cdlp, beatify, meta, shopify, starbucks, Zidio, Fiverr, upwork, Lantop } from "../assets/images";
+import { cdlp, beatify, dangote, memr, meta, shopify, starbucks, Zidio, Fiverr, upwork, Lantop } from "../assets/images";
 import {
     car,
     css,
@@ -130,18 +130,17 @@ export const experiences = [
         company_name: "Self-employed",
         icon: Fiverr,
         iconBg: "#00b22d",
-        date: "April - Present",
+        date: "April 2021 - Present",
         points: [   
-            "",
-            "",
-            "",
-            "",
+            "Cryptocurrency trading, Forex trading, Equity",
+            "Risk Management, Portfolio Mangement",
+            "Credit Risk Analysis",
         ],
     },
     {
-        title: "National Youth Service Corps",
+        title: "National Youth Service Corps (NYSC)",
         company_name: "Ministry of Energy and Mineral Resources, Oyo State, Nigeria",
-        icon: Fiverr,
+        icon: memr,
         iconBg: "#00b22d",
         date: "August 2023 - July 2024",
         points: [   
@@ -210,7 +209,7 @@ export const experiences = [
     {
         title: "Instrumentation Engineer",
         company_name: "Dangote Cement Plc",
-        icon: Lantop,
+        icon: dangote,
         iconBg: "#fff",
         date: "March 2021 - August 2021",
         points: [
