@@ -1,4 +1,4 @@
-import { cdlp, beatify, dangote, memr, meta, shopify, starbucks, Zidio, Fiverr, upwork, Lantop } from "../assets/images";
+import { Cdlp, Beatify, Dangote, Memr, meta, shopify, starbucks, Zidio, Fiverr, upwork, Lantop } from "../assets/images";
 import {
     car,
     css,
@@ -140,7 +140,7 @@ export const experiences = [
     {
         title: "National Youth Service Corps (NYSC)",
         company_name: "Ministry of Energy and Mineral Resources, Oyo State, Nigeria",
-        icon: memr,
+        icon: Memr,
         iconBg: "#00b22d",
         date: "August 2023 - July 2024",
         points: [   
@@ -150,7 +150,7 @@ export const experiences = [
     {
         title: "Software Engineer, Frontend (Contract)",
         company_name: "CDLP Hub LTD",
-        icon: cdlp,
+        icon: Cdlp,
         iconBg: "#2b77e7",
         date: "October 2023 - April 2024",
         points: [
@@ -179,7 +179,7 @@ export const experiences = [
     {
         title: "Software Engineer (Contract)",
         company_name: "Beatify",
-        icon: beatify,
+        icon: Beatify,
         iconBg: "#fff",
         date: "Dec 2022 - Feb 2023",
         points: [
@@ -209,7 +209,7 @@ export const experiences = [
     {
         title: "Instrumentation Engineer",
         company_name: "Dangote Cement Plc",
-        icon: dangote,
+        icon: Dangote,
         iconBg: "#fff",
         date: "March 2021 - August 2021",
         points: [
