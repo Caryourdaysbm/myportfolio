@@ -32,7 +32,7 @@ import cs50Finance from './cs50Finance.ico'
 
 export {
     css,
-    cs50Finance
+    cs50Finance,
     dynojs,
     express,
     git,
