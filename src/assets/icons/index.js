@@ -27,7 +27,7 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import dynojs from './dynojs.png'
-import cs50Finance from './cs50Finance.ico'
+import cs50Finance from './cs50finance.ico'
 
 
 export {
