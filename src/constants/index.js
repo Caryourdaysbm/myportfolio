@@ -2,6 +2,8 @@ import { Cdlp, Beatify, Dangote, Memr, meta, shopify, starbucks, Zidio, Fiverr, 
 import {
     car,
     css,
+    cs50Finance,
+    dynojs,
     estate,
     express,
     git,
@@ -259,6 +261,22 @@ export const socialLinks = [
 ];
 
 export const projects = [
+
+    {
+        iconUrl: dynojs,
+        theme: 'btn-btn-blue',
+        name: 'dynojs',
+        description: 'DynoJS is an interactive web application designed to enhance your learning experience by providing AI-driven assistance and engaging features.',
+        link: 'https://github.com/Caryourdaysbm/Dynamos'
+    },
+
+    {
+        iconUrl: cs50Finance,
+        theme: 'btn-back-gree',
+        name: "CS50 Finance",
+        description: 'a web app that allows you to manage portfolios of stocks. Not only will this tool allow you to check real stocks’ actual prices and portfolios’ values, but it will also let you buy (okay, “buy”) and sell (okay, “sell”) stocks by querying for stocks’ prices.',
+        link: 'https://github.com/Caryourdaysbm/myCs50FinanceProject',
+    }
 
     {
         iconUrl: car,
