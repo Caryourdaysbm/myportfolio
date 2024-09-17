@@ -276,7 +276,7 @@ export const projects = [
         name: "CS50 Finance",
         description: 'a web app that allows you to manage portfolios of stocks. Not only will this tool allow you to check real stocks’ actual prices and portfolios’ values, but it will also let you buy (okay, “buy”) and sell (okay, “sell”) stocks by querying for stocks’ prices.',
         link: 'https://github.com/Caryourdaysbm/myCs50FinanceProject',
-    }
+    },
 
     {
         iconUrl: car,
