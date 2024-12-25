@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Oluwakayode Samuel Adeyemi</span>
         👋
         <br />
-        A Software Developer from Nigeria 🇳🇬
+        A Software Engineer from Nigeria 🇳🇬
       </h1>
     );
 

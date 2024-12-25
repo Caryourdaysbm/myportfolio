@@ -1,4 +1,4 @@
-import { Cdlp, Beatify, Dangote, Memr, meta, shopify, starbucks, Zidio, Fiverr, upwork, Lantop } from "../assets/images";
+import { Cdlp, Beatify, Dangote, Memr, meta, shopify, starbucks, Zidio, Fiverr, upwork, Lantop, Projectstake } from "../assets/images";
 import {
     car,
     css,
@@ -126,21 +126,21 @@ export const skills = [
 ];
 
 export const experiences = [
-
     {
-        title: "Financial Analyst & Trader",
-        company_name: "Self-employed",
-        icon: Fiverr,
+        title: "Teaching Assistant (Contract)",
+        company_name: "Projecttent (Projectstake Academy)",
+        icon: Projectstake,
         iconBg: "#00b22d",
-        date: "April 2021 - Present",
+        date: "October 2024 - December 2024",
         points: [   
-            "Cryptocurrency trading, Forex trading, Equity",
-            "Risk Management, Portfolio Mangement",
-            "Credit Risk Analysis",
+            "Mentored and worked as a Teaching Assistant (3-month contract) for the 2024 fall Cohort of Projectstake x CS50: Introduction to Computer Science.",
+            "Solidified my passion for teaching and learning while deepening my skills in Web3 and software development.",
+            " Facilitate the first cohort of Introduction to Web3, which I also participated in as a learner.",
         ],
     },
+   
     {
-        title: "National Youth Service Corps (NYSC)",
+        title: "IT Support (National Youth Service Corps (NYSC))",
         company_name: "Ministry of Energy and Mineral Resources, Oyo State, Nigeria",
         icon: Memr,
         iconBg: "#00b22d",
@@ -192,7 +192,18 @@ export const experiences = [
             "",
         ],
     },
-
+    {
+        title: "Financial Analyst & Trader",
+        company_name: "Self-employed",
+        icon: Fiverr,
+        iconBg: "#c51bf0",
+        date: "April 2021 - Present",
+        points: [   
+            "Cryptocurrency trading, Forex trading, Equity",
+            "Risk Management, Portfolio Mangement",
+            "Credit Risk Analysis",
+        ],
+    },
    
     {
         title: "Full stack Developer",
@@ -261,6 +272,7 @@ export const socialLinks = [
 ];
 
 export const projects = [
+
 
     {
         iconUrl: dynojs,

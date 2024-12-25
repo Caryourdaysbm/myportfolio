@@ -12,6 +12,7 @@ import Fiverr from './fiverr-icon.svg'
 import Zidio from './zidio_logo.png'
 import logo from './logo.svg'
 import Lantop from './Lantop.svg'
+import Projectstake from './ProjectstakeImg.jpg'
 
 export {
     hero,
@@ -27,5 +28,6 @@ export {
     upwork,
     Fiverr,
     Zidio,
-    Lantop
+    Lantop,
+    Projectstake
 }
