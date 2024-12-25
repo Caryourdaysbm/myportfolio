@@ -140,7 +140,7 @@ export const experiences = [
     },
    
     {
-        title: "IT Support (National Youth Service Corps (NYSC))",
+        title: "Technical Support Engineer (National Youth Service Corps (NYSC))",
         company_name: "Ministry of Energy and Mineral Resources, Oyo State, Nigeria",
         icon: Memr,
         iconBg: "#00b22d",
