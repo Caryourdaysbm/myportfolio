@@ -272,6 +272,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: threads,
+        theme: 'btn-back-yellow',
+        name: 'Voting Dapp',
+        description: ' A blockchain-based voting and ETH transfer system, built with React.js and Ethers.js, and deployed on the Ethereum Sepolia testnet',
+        link: 'https://sbm-voting-dapp.vercel.app'
+    },
 
 
     {
