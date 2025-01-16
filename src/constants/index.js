@@ -274,6 +274,15 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: threads,
+        theme: 'btn-back-black',
+        name: 'Safetra',
+        description: 'An online trust system designed to empower individuals and restore confidence in digital transactions',
+        link: 'https://safetra.netlify.app'
+    },
+
+
+    {
+        iconUrl: threads,
         theme: 'btn-back-yellow',
         name: 'Voting Dapp',
         description: ' A blockchain-based voting and ETH transfer system, built with React.js and Ethers.js, and deployed on the Ethereum Sepolia testnet',
@@ -291,7 +300,7 @@ export const projects = [
 
     {
         iconUrl: cs50Finance,
-        theme: 'btn-back-gree',
+        theme: 'btn-back-green',
         name: "CS50 Finance",
         description: 'a web app that allows you to manage portfolios of stocks. Not only will this tool allow you to check real stocks’ actual prices and portfolios’ values, but it will also let you buy (okay, “buy”) and sell (okay, “sell”) stocks by querying for stocks’ prices.',
         link: 'https://github.com/Caryourdaysbm/myCs50FinanceProject',
