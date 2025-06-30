@@ -1,4 +1,4 @@
-import { Cdlp, Beatify, Dangote, Memr, meta, shopify, starbucks, Zidio, Fiverr, upwork, Lantop, Projectstake } from "../assets/images";
+import { Cdlp, Beatify, Dangote, Memr, meta, shopify, starbucks, Zidio, Fiverr, upwork, Lantop, Projectstake, Maypaspace, FfsdLogo } from "../assets/images";
 import {
     car,
     css,
@@ -272,6 +272,21 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: FfsdLogo,
+        theme: 'btn-back-blue',
+        name: 'FFSD Research Grant',
+        description: 'A live project with over 20+ applications submitted and managed yearly, built to support researchers within Nigerian universities by offering sufficient funding for their research endeavors.',
+        link: 'https://www.researchgrants.ffsdgroup.com'
+
+    },
+    {
+         iconUrl: Maypaspace,
+        theme: 'btn-back-white',
+        name: 'Maypas Space',
+        description: 'A live project with over 200+ active users that help simplifies how spaces are managed, booked, and monetized across Nigeria—empowering businesses with tools that help them save time, increase revenue, and serve their clients better.',
+        link: 'https://www.maypaspace.com'
+    },
     {
         iconUrl: threads,
         theme: 'btn-back-black',

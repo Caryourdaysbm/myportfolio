@@ -13,6 +13,8 @@ import Zidio from './zidio_logo.png'
 import logo from './logo.svg'
 import Lantop from './Lantop.svg'
 import Projectstake from './projectstakeImg.jpg'
+import Maypaspace from './Maypaspace.png'
+import FfsdLogo from './ffsd-logo1.png'
 
 export {
     hero,
@@ -29,5 +31,7 @@ export {
     Fiverr,
     Zidio,
     Lantop,
-    Projectstake
+    Projectstake,
+    Maypaspace, 
+    FfsdLogo
 }
