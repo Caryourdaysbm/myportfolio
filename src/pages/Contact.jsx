@@ -1,6 +1,8 @@
 import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
+    // const { MailtrapClient } = require("mailtrap");
+
 
 import { Fox } from "../models";
 import useAlert from "../hooks/useAlert";
@@ -20,6 +22,72 @@ const Contact = () => {
   const handleFocus = () => setCurrentAnimation("walk");
   const handleBlur = () => setCurrentAnimation("idle");
 
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     setLoading(true);
+//     setCurrentAnimation(hit);
+
+
+// const TOKEN = "25d21c890828409db52b2f14e416e0aa";
+
+// const client = new MailtrapClient({
+//   token: TOKEN,
+// });
+
+// const sender = {
+//   email: form.email,
+//   name: form.name,
+// };
+// const recipients = [
+//   {
+//     email: "adeyemioluwakayode73@gmail.com",
+//   }
+// ];
+
+// client
+//   .send({
+//     from: sender,
+//     to: recipients,
+//     subject: "Someone Contacted Your PortFolio Mail",
+//     text: form.message,
+//     category: "My Portfolio Mail",
+//   })
+//   .then(
+//         () => {
+//           setLoading(false);
+//           showAlert({
+//             show: true,
+//             text: "Thank you for your message 😃",
+//             type: "success",
+//           });
+
+//           setTimeout(() => {
+//             setLoading(false);
+//             hideAlert(false);
+//             setCurrentAnimation("idle");
+//             setForm({
+//               name: "",
+//               email: "",
+//               message: "",
+//             });
+//           }, [3000]);
+//         },
+//         (error) => {
+//           setLoading(false);
+//           console.error(error);
+//           setCurrentAnimation("idle");
+
+//           showAlert({
+//             show: true,
+//             text: "I didn't receive your message 😢",
+//             type: "danger",
+//           });
+//         }
+//       );
+
+
+//   }
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -30,10 +98,10 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
-          from_name: form.name,
-          to_name: "JavaScript Mastery",
-          from_email: form.email,
-          to_email: "adeyemioluwakayode73@gmail.com",
+          name: form.name,
+          title: form.title,
+          email: form.email,
+          recipient: "adeyemioluwakayode73@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -48,6 +116,7 @@ const Contact = () => {
           });
 
           setTimeout(() => {
+            setLoading(false);
             hideAlert(false);
             setCurrentAnimation("idle");
             setForm({
@@ -89,7 +158,7 @@ const Contact = () => {
               type='text'
               name='name'
               className='input'
-              placeholder='Samuel'
+              placeholder="I'm Samuel, you are?"
               required
               value={form.name}
               onChange={handleChange}
@@ -103,9 +172,22 @@ const Contact = () => {
               type='email'
               name='email'
               className='input'
-              placeholder='Samuel@gmail.com'
+              placeholder='Where can i send a reply to? eg. samuel@gmail.com'
               required
               value={form.email}
+              onChange={handleChange}
+              onFocus={handleFocus}
+              onBlur={handleBlur}
+            />
+          </label>
+            <label className='text-black-500 font-semibold'>
+            Message Title  
+              <input
+              name='title'
+              rows='4'
+              className='textarea'
+              placeholder='Write your Message title here...'
+              value={form.title}
               onChange={handleChange}
               onFocus={handleFocus}
               onBlur={handleBlur}
